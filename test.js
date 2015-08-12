@@ -15,6 +15,7 @@ describe('trying to replicate it', function() {
       console.log('ERROR: ', error);
 
       // if error throw here
+      // if assert fails we also end up here
       return false;
     });
     printArgs(resMock);
